@@ -1,4 +1,5 @@
 ﻿using DamascusComplaintSystem.Api.Data;
+using DamascusComplaintSystem.Api.Enums;
 using DamascusComplaintSystem.Api.Infrastructure.Repositories.Interfaces;
 using DamascusComplaintSystem.Api.Models;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,10 @@ namespace DamascusComplaintSystem.Api.Infrastructure.Repositories
 
         public async Task AddAsync(Complaint complaint)
         {
+            if(complaint.Status==0)
+            {
+                complaint.Status=ComplaintStatus.Received;
+            }
               await _context.Complaints.AddAsync(complaint);
             await _context.SaveChangesAsync();
 

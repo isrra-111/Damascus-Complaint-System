@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DamascusComplaintSystem.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaedeb7dc0e1788dd537f1ae4fbf3bbb3d4e0b69")]
 [assembly: System.Reflection.AssemblyProductAttribute("DamascusComplaintSystem.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DamascusComplaintSystem.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,6 @@
 ﻿
+using DamascusComplaintSystem.Api.Enums;
+
 namespace DamascusComplaintSystem.Api.Models
 {
     public class Complaint
@@ -19,6 +21,8 @@ namespace DamascusComplaintSystem.Api.Models
         public string? PreviousComplaintNumber { get; set; }
         public DateTime? PreviousComplaintDate { get; set; }
         public DateTime SubmittedAt { get; set; } = DateTime.Now;
+
+        public ComplaintStatus Status { get; set; }
 
     }
 

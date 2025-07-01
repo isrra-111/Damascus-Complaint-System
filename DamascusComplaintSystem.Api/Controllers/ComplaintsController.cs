@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using DamascusComplaintSystem.Api.DTOs;
+using DamascusComplaintSystem.Api.Enums;
 using DamascusComplaintSystem.Api.Infrastructure.Repositories.Interfaces;
 using DamascusComplaintSystem.Api.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -55,7 +56,10 @@ namespace DamascusComplaintSystem.Api.Controllers
             {
 
                 var complaint = _mapper.Map<Complaint>(complaintDto);
+
+                
                 complaint.SubmittedAt = DateTime.Now;
+                complaint.Status = (ComplaintStatus)complaintDto.ComplaintStatusId;
 
                 await _repository.AddAsync(complaint);
 
@@ -83,12 +87,18 @@ namespace DamascusComplaintSystem.Api.Controllers
             var existingComplaint = await _repository.GetByIdAsync(id);
             if (existingComplaint == null)
             {
-                return NotFound();
+                return NotFound("لم يتم العثور على الشكوى");
             }
             try
             {
 
                 _mapper.Map(complaintDto, existingComplaint);
+
+                if (complaintDto.ComplaintStatusId != 0)
+                {
+                    existingComplaint.Status = (ComplaintStatus)complaintDto.ComplaintStatusId;
+                }
+
 
                 await _repository.Update(existingComplaint);
                 return StatusCode(200,$"تم تحديث بيانات الشكوى بنجاح.");

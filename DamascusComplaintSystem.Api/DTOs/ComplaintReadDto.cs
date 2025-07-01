@@ -31,6 +31,8 @@
         public DateTime? PreviousComplaintDate { get; set; }
 
         public DateTime SubmittedAt { get; set; }
+        public string ComplaintStatusName { get; set; }
+        public string ComplaintStatusArabicName { get; set; }
 
     }
 }

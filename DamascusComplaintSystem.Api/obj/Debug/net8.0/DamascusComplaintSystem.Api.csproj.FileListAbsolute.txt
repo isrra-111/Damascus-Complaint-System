@@ -5,6 +5,7 @@ C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\bin
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\bin\Debug\net8.0\DamascusComplaintSystem.Api.runtimeconfig.json
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\bin\Debug\net8.0\DamascusComplaintSystem.Api.dll
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\bin\Debug\net8.0\DamascusComplaintSystem.Api.pdb
+C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\bin\Debug\net8.0\Humanizer.dll
@@ -120,6 +121,7 @@ C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj\Debug\net8.0\DamascusComplaintSystem.Api.csproj.CoreCompileInputs.cache
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj\Debug\net8.0\DamascusComplaintSystem.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj\Debug\net8.0\DamascusComplaintSystem.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj\Debug\net8.0\DamascusComplaintSystem.Api.sourcelink.json
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj\Debug\net8.0\staticwebassets\msbuild.DamascusComplaintSystem.Api.Microsoft.AspNetCore.StaticWebAssets.props
@@ -134,4 +136,3 @@ C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj\Debug\net8.0\DamascusComplaintSystem.Api.pdb
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj\Debug\net8.0\DamascusComplaintSystem.Api.genruntimeconfig.cache
 C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\obj\Debug\net8.0\ref\DamascusComplaintSystem.Api.dll
-C:\Users\Hp\source\repos\DamascusComplaintSystem\DamascusComplaintSystem.Api\bin\Debug\net8.0\AutoMapper.dll

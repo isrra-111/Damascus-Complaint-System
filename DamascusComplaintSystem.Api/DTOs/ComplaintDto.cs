@@ -50,5 +50,10 @@ namespace DamascusComplaintSystem.Api.DTOs
         // تاريخ الشكوى السابقة 
         public DateTime? PreviousComplaintDate { get; set; }
 
+        [Required(ErrorMessage = "حالة الشكوى مطلوبة")]
+        public int ComplaintStatusId { get; set; }  
+
+       
+
     }
 }

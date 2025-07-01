@@ -20,7 +20,9 @@ namespace DamascusComplaintSystem.Api.Data
                 .WithMany()
                 .HasForeignKey(c => c.ComplaintTypeId);
 
-
+            modelBuilder.Entity<Complaint>()
+                .Property(c => c.Status)
+                .HasConversion<int>();
 
             modelBuilder.Entity<ComplaintType>().HasData(
         new ComplaintType { Id = 1, Name = "BuildingViolation", ArabicName = "مخالفة بناء" },
